@@ -20,12 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-4jy(!tvwqvq6rvqd^51gqk!2w*l^u**&#sf(+dp9mplfvmeh++'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '87e7-197-211-63-128.ngrok-free.app']
+
+
 
 
 
@@ -141,26 +140,33 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-WHATSAPP_ACCESS_TOKEN = "EAANQ85Ec7NMBO81ilnVrKXT2MdcKW6aHbgxeZB5ZC2PlkvtuXBlZBZBdnogTY4yE5z0ZBkyO9wiIdp0oPHTmrnK4CutLq9UqCqXWXAk5zBNNdDNXmATZB593HFrF22mzRu7sBj1hWmujMzA1x8cJzyceVbQGbZARUGNKuwvAeBBzu0I8Q6darfMKDlP80JEpsZC25lDyqLzYSAAr6rlqreJQH5WPiY0ZD"
-WHATSAPP_PHONE_NUMBER_ID = "524548570731447"
-AGENT_PHONE_NUMBER = "2348166796948"
-WHATSAPP_CHANNEL_LINK = "https://whatsapp.com/channel/your_channel_id"
-INSTAGRAM_LINK = "https://instagram.com/your_account"
-
-
 
 import os
 
-# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'CSA_Project/CSA_app/credentials.json'
-GOOGLE_APPLICATION_CREDENTIALS = os.path.join(BASE_DIR, "CSA_app/credentials.json")
-# My Google Cloud Project ID
 
-PROJECT_ID = "csaaiprompting"
 
-LOCATION = "europe-west1"
 
-GEMINI_API_KEY = "AIzaSyD457tpDV7JHEnl0e6DC_n98h6zqTzZhrw"
 
 # Media settings
 MEDIA_URL = '/media/'  # URL to access media files
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory where media files are stored
+
+from decouple import config, Csv
+
+# SECURITY
+SECRET_KEY = config("SECRET_KEY")
+DEBUG = config("DEBUG", default=False, cast=bool)
+ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=Csv)
+
+# WHATSAPP & INSTAGRAM
+WHATSAPP_ACCESS_TOKEN = config("WHATSAPP_ACCESS_TOKEN")
+WHATSAPP_PHONE_NUMBER_ID = config("WHATSAPP_PHONE_NUMBER_ID")
+AGENT_PHONE_NUMBER = config("AGENT_PHONE_NUMBER")
+WHATSAPP_CHANNEL_LINK = config("WHATSAPP_CHANNEL_LINK")
+INSTAGRAM_LINK = config("INSTAGRAM_LINK")
+
+# GOOGLE
+GOOGLE_APPLICATION_CREDENTIALS = os.path.join(BASE_DIR, "CSA_app/credentials.json")
+PROJECT_ID = config("PROJECT_ID")
+LOCATION = config("LOCATION")
+GEMINI_API_KEY = config("GEMINI_API_KEY")

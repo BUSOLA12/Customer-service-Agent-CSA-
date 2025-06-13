@@ -13,3 +13,640 @@
 2025-04-16 15:05:34,643 - INFO - (view)Property data: [{'id': 10, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'This stunning home features a swimming pool, modern kitchen, and 24/7 power', 'price': '23400000.00', 'location': 'express road', 'bedrooms': 4, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:56:11.592620Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment_Pn2fABZ.jpg', 'property_identifier': '92260'}, {'id': 9, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'this is greate', 'price': '24000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos', 'bedrooms': 5, 'bathrooms': 7, 'is_available': True, 'created_at': '2025-04-13T22:51:27.156003Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment_YUhf98t.jpg', 'property_identifier': '21215'}, {'id': 6, 'name': 'MY house', 'description': 'yes yes yes es', 'price': '23900000.00', 'location': 'Agbowo road', 'bedrooms': 3, 'bathrooms': 3, 'is_available': True, 'created_at': '2025-04-13T22:25:38.833663Z', 'image_urls': None, 'image': '/media/property_images/default.jpg', 'property_identifier': '21345'}, {'id': 5, 'name': '3 bedroom flat', 'description': 'it is so beautiful', 'price': '23000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos"', 'bedrooms': 3, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:16:11.458648Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment.jpg', 'property_identifier': '92677'}, {'id': 4, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'This spacious 3-bedroom apartment comes with a fully fitted kitchen, 3 bathrooms, 24/7 security, and a serene environment.', 'price': '65000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos', 'bedrooms': 3, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:08:05.336609Z', 'image_urls': None, 'image': '/media/property_images/default.jpg', 'property_identifier': '46556'}, {'id': 3, 'name': 'duplex', 'description': 'A beautiful luxury apartment with modern amenities.', 'price': '25000000.00', 'location': 'Agbowo road', 'bedrooms': 3, 'bathrooms': 4, 'is_available': True, 'created_at': '2025-03-29T08:45:08.067886Z', 'image_urls': ['http://localhost:8000/media/property_images/duplex1.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#47311'}, {'id': 2, 'name': 'bungalow', 'description': 'A beautiful luxury apartment with modern amenities.', 'price': '20000000.00', 'location': 'express road', 'bedrooms': 2, 'bathrooms': 2, 'is_available': True, 'created_at': '2025-03-29T05:49:51.488813Z', 'image_urls': ['http://localhost:8000/media/property_images/duplex2.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#28346'}, {'id': 1, 'name': 'bungalow', 'description': 'good house', 'price': '12000000.00', 'location': 'apata', 'bedrooms': 5, 'bathrooms': 6, 'is_available': True, 'created_at': '2025-03-26T00:24:15.221436Z', 'image_urls': ['http://localhost:8000/media/property_images/bungalow.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#47237'}]
 2025-04-16 15:06:58,301 - INFO - (view)Property data: [{'id': 10, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'This stunning home features a swimming pool, modern kitchen, and 24/7 power', 'price': '23400000.00', 'location': 'express road', 'bedrooms': 4, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:56:11.592620Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment_Pn2fABZ.jpg', 'property_identifier': '92260'}, {'id': 9, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'this is greate', 'price': '24000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos', 'bedrooms': 5, 'bathrooms': 7, 'is_available': True, 'created_at': '2025-04-13T22:51:27.156003Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment_YUhf98t.jpg', 'property_identifier': '21215'}, {'id': 6, 'name': 'MY house', 'description': 'yes yes yes es', 'price': '23900000.00', 'location': 'Agbowo road', 'bedrooms': 3, 'bathrooms': 3, 'is_available': True, 'created_at': '2025-04-13T22:25:38.833663Z', 'image_urls': None, 'image': '/media/property_images/default.jpg', 'property_identifier': '21345'}, {'id': 5, 'name': '3 bedroom flat', 'description': 'it is so beautiful', 'price': '23000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos"', 'bedrooms': 3, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:16:11.458648Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment.jpg', 'property_identifier': '92677'}, {'id': 4, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'This spacious 3-bedroom apartment comes with a fully fitted kitchen, 3 bathrooms, 24/7 security, and a serene environment.', 'price': '65000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos', 'bedrooms': 3, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:08:05.336609Z', 'image_urls': None, 'image': '/media/property_images/default.jpg', 'property_identifier': '46556'}, {'id': 3, 'name': 'duplex', 'description': 'A beautiful luxury apartment with modern amenities.', 'price': '25000000.00', 'location': 'Agbowo road', 'bedrooms': 3, 'bathrooms': 4, 'is_available': True, 'created_at': '2025-03-29T08:45:08.067886Z', 'image_urls': ['http://localhost:8000/media/property_images/duplex1.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#47311'}, {'id': 2, 'name': 'bungalow', 'description': 'A beautiful luxury apartment with modern amenities.', 'price': '20000000.00', 'location': 'express road', 'bedrooms': 2, 'bathrooms': 2, 'is_available': True, 'created_at': '2025-03-29T05:49:51.488813Z', 'image_urls': ['http://localhost:8000/media/property_images/duplex2.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#28346'}, {'id': 1, 'name': 'bungalow', 'description': 'good house', 'price': '12000000.00', 'location': 'apata', 'bedrooms': 5, 'bathrooms': 6, 'is_available': True, 'created_at': '2025-03-26T00:24:15.221436Z', 'image_urls': ['http://localhost:8000/media/property_images/bungalow.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#47237'}]
 2025-04-16 15:33:18,583 - INFO - (view)Property data: [{'id': 10, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'This stunning home features a swimming pool, modern kitchen, and 24/7 power', 'price': '23400000.00', 'location': 'express road', 'bedrooms': 4, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:56:11.592620Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment_Pn2fABZ.jpg', 'property_identifier': '92260'}, {'id': 9, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'this is greate', 'price': '24000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos', 'bedrooms': 5, 'bathrooms': 7, 'is_available': True, 'created_at': '2025-04-13T22:51:27.156003Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment_YUhf98t.jpg', 'property_identifier': '21215'}, {'id': 6, 'name': 'MY house', 'description': 'yes yes yes es', 'price': '23900000.00', 'location': 'Agbowo road', 'bedrooms': 3, 'bathrooms': 3, 'is_available': True, 'created_at': '2025-04-13T22:25:38.833663Z', 'image_urls': None, 'image': '/media/property_images/default.jpg', 'property_identifier': '21345'}, {'id': 5, 'name': '3 bedroom flat', 'description': 'it is so beautiful', 'price': '23000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos"', 'bedrooms': 3, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:16:11.458648Z', 'image_urls': None, 'image': '/media/property_images/3BedroomApartment.jpg', 'property_identifier': '92677'}, {'id': 4, 'name': 'Modern 3-Bedroom Apartment in Lekki', 'description': 'This spacious 3-bedroom apartment comes with a fully fitted kitchen, 3 bathrooms, 24/7 security, and a serene environment.', 'price': '65000000.00', 'location': 'Plot 45, Lekki Phase 1, Lagos', 'bedrooms': 3, 'bathrooms': 5, 'is_available': True, 'created_at': '2025-04-13T22:08:05.336609Z', 'image_urls': None, 'image': '/media/property_images/default.jpg', 'property_identifier': '46556'}, {'id': 3, 'name': 'duplex', 'description': 'A beautiful luxury apartment with modern amenities.', 'price': '25000000.00', 'location': 'Agbowo road', 'bedrooms': 3, 'bathrooms': 4, 'is_available': True, 'created_at': '2025-03-29T08:45:08.067886Z', 'image_urls': ['http://localhost:8000/media/property_images/duplex1.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#47311'}, {'id': 2, 'name': 'bungalow', 'description': 'A beautiful luxury apartment with modern amenities.', 'price': '20000000.00', 'location': 'express road', 'bedrooms': 2, 'bathrooms': 2, 'is_available': True, 'created_at': '2025-03-29T05:49:51.488813Z', 'image_urls': ['http://localhost:8000/media/property_images/duplex2.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#28346'}, {'id': 1, 'name': 'bungalow', 'description': 'good house', 'price': '12000000.00', 'location': 'apata', 'bedrooms': 5, 'bathrooms': 6, 'is_available': True, 'created_at': '2025-03-26T00:24:15.221436Z', 'image_urls': ['http://localhost:8000/media/property_images/bungalow.jpg'], 'image': '/media/property_images/default.jpg', 'property_identifier': '#47237'}]
+2025-06-10 19:23:54,500 - INFO - Watching for file changes with StatReloader
+2025-06-10 19:25:48,260 - INFO - C:\Users\Mrs. Iyiola Aabiodun\Desktop\WhatsApp_CSA\CSA_Project\CSA_Project\settings.py changed, reloading.
+2025-06-10 19:26:24,840 - INFO - Watching for file changes with StatReloader
+2025-06-10 19:30:35,290 - INFO - (view)Verification request received with mode: subscribe, token: EAANQ85Ec7NMBO17DU4AvAWnbhnNn49t7e3lBOuKmMnS1q1NwgtvxE1WbrKUZAEmLhT4WpBugY5ZCnnHAK9fwAsIFh3grZCyXDZCC9YLU4ZAGzYhS3rjWwBNh6ulKZC7hPB5S7YJtM6TkY7iyqafRPZCBwp7QnQdtrBqp4WievmEi0E4A8Fhf5ti7hOZC4SQ1xZAQgwKG9LN8boz8hhkGymqSAOmXsaSQZD
+2025-06-10 19:30:35,309 - INFO - Webhook verified successfully
+2025-06-10 23:13:54,788 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkY1NUNCQUE4Njk0MEUyRjA1MgA=",
+                "status": "sent",
+                "timestamp": "1749593632",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "expiration_timestamp": "1749680040",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:14:09,876 - INFO - C:\Users\Mrs. Iyiola Aabiodun\Desktop\WhatsApp_CSA\CSA_Project\CSA_Project\settings.py changed, reloading.
+2025-06-10 23:15:18,657 - INFO - Watching for file changes with StatReloader
+2025-06-10 23:16:58,260 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Oluwabusolami\ud83d\ude0a"
+                },
+                "wa_id": "2348166796948"
+              }
+            ],
+            "messages": [
+              {
+                "from": "2348166796948",
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABIYIDBGQjkzMTdDQzY2NDdGMzU2QjkyRjVFRTdBNDlBN0QxAA==",
+                "timestamp": "1749593818",
+                "text": {
+                  "body": "Hello"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:17:00,672 - INFO - intent: general_query
+2025-06-10 23:17:02,871 - INFO - WhatsApp message sent successfully to 2348166796948
+2025-06-10 23:17:03,768 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEjAzQjg4QUIzRkI2NjU5NUU4MAA=",
+                "status": "sent",
+                "timestamp": "1749593825",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "expiration_timestamp": "1749680100",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:17:07,245 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEjAzQjg4QUIzRkI2NjU5NUU4MAA=",
+                "status": "read",
+                "timestamp": "1749593828",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:21:18,791 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkY1NUNCQUE4Njk0MEUyRjA1MgA=",
+                "status": "read",
+                "timestamp": "1749593665",
+                "recipient_id": "2348166796948"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:21:29,408 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Oluwabusolami\ud83d\ude0a"
+                },
+                "wa_id": "2348166796948"
+              }
+            ],
+            "messages": [
+              {
+                "from": "2348166796948",
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABIYIEZCQ0RFOTE2QUQ4NUNBMzhDRkY5RTE0MUNCRjkwQjZDAA==",
+                "timestamp": "1749593694",
+                "text": {
+                  "body": "Hello"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:21:30,757 - INFO - intent: general_query
+2025-06-10 23:21:31,787 - INFO - WhatsApp message sent successfully to 2348166796948
+2025-06-10 23:21:32,647 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkFBNUM3NzEzQUU2NTg0MDkxMQA=",
+                "status": "sent",
+                "timestamp": "1749594094",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "expiration_timestamp": "1749680100",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:21:42,328 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkFBNUM3NzEzQUU2NTg0MDkxMQA=",
+                "status": "delivered",
+                "timestamp": "1749594103",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:21:58,781 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkY1NUNCQUE4Njk0MEUyRjA1MgA=",
+                "status": "delivered",
+                "timestamp": "1749593654",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:26:24,547 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkFBNUM3NzEzQUU2NTg0MDkxMQA=",
+                "status": "read",
+                "timestamp": "1749594385",
+                "recipient_id": "2348166796948"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:27:03,485 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Oluwabusolami\ud83d\ude0a"
+                },
+                "wa_id": "2348166796948"
+              }
+            ],
+            "messages": [
+              {
+                "from": "2348166796948",
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABIYIDA5MTQ4REFBNjJBQjBCNjUyQzg1MDY3MzAzRkRBQzkwAA==",
+                "timestamp": "1749594424",
+                "text": {
+                  "body": "Is a bungalow with two bathrooms available?"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:27:04,600 - INFO - intent: property_inquiry
+2025-06-10 23:27:05,472 - INFO - Successfully retrieved details_json: {
+    "Property_identifier": null,
+    "name": "bungalow",
+    "Location_preferences": null,
+    "Bedrooms": null,
+    "Budget": null,
+    "Any_other_specific_requirements": "two bathrooms"
+}
+2025-06-10 23:27:05,472 - INFO - Successfully retrieved property_details: {'Property_identifier': None, 'name': 'bungalow', 'Location_preferences': None, 'Bedrooms': None, 'Budget': None, 'Any_other_specific_requirements': 'two bathrooms'}
+2025-06-10 23:27:05,472 - INFO - Successfully retrieved property_identifier: None
+2025-06-10 23:27:08,913 - INFO - WhatsApp message sent successfully to 2348166796948
+2025-06-10 23:27:09,830 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkY4Mzk2RTMyQzE2NjA3RDlBMAA=",
+                "status": "sent",
+                "timestamp": "1749594431",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "expiration_timestamp": "1749680100",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:27:10,944 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEkY4Mzk2RTMyQzE2NjA3RDlBMAA=",
+                "status": "read",
+                "timestamp": "1749594432",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:27:42,300 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Oluwabusolami\ud83d\ude0a"
+                },
+                "wa_id": "2348166796948"
+              }
+            ],
+            "messages": [
+              {
+                "from": "2348166796948",
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABIYIDI0OUNGOENEQzcxM0U4QTA4NzhFQjcxMDRFMkVEMUQ1AA==",
+                "timestamp": "1749594463",
+                "text": {
+                  "body": "20000000"
+                },
+                "type": "text"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:27:42,796 - INFO - intent: budget_sharing
+2025-06-10 23:27:42,797 - INFO - Budget is: 20000000
+2025-06-10 23:27:42,797 - INFO - New Budget is: 20000000.0
+2025-06-10 23:27:44,070 - INFO - lower_range: 16000000.0
+2025-06-10 23:27:44,070 - INFO - upper_range: 24000000.0
+2025-06-10 23:27:44,398 - INFO - recommended_properties: [<Property: 3 bedroom flat>, <Property: Modern 3-Bedroom Apartment in Lekki>, <Property: MY house>]
+2025-06-10 23:27:45,497 - INFO - WhatsApp message sent successfully to 2348166796948
+2025-06-10 23:27:46,370 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEjYzMDkwMjZDQkYyNUREMEJDQwA=",
+                "status": "sent",
+                "timestamp": "1749594467",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "expiration_timestamp": "1749680100",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2025-06-10 23:27:47,183 - INFO - (view)Received WhatsApp Data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "448254508378987",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551930574",
+              "phone_number_id": "524548570731447"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgNMjM0ODE2Njc5Njk0OBUCABEYEjYzMDkwMjZDQkYyNUREMEJDQwA=",
+                "status": "read",
+                "timestamp": "1749594468",
+                "recipient_id": "2348166796948",
+                "conversation": {
+                  "id": "35057d3464814a929229cedcc752f747",
+                  "origin": {
+                    "type": "utility"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "utility"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,8 @@ import json
 from django.conf import settings
 from .whatsapp_handler import process_whatsapp_message
 import logging
+from decouple import config, Csv
+
 logger = logging.getLogger(__name__)
 
 # Create your views here.
@@ -14,8 +16,7 @@ logger = logging.getLogger(__name__)
 from django.views.decorators.csrf import csrf_exempt
 
 # Define the verify token for WhatsApp webhook verification
-verify = "EAANQ85Ec7NMBO17DU4AvAWnbhnNn49t7e3lBOuKmMnS1q1NwgtvxE1WbrKUZAEmLhT4WpBugY5ZCnnHAK9fwAsIFh3grZCyXDZCC9YLU4ZAGzYhS3rjWwBNh6ulKZC7hPB5S7YJtM6TkY7iyqafRPZCBwp7QnQdtrBqp4WievmEi0E4A8Fhf5ti7hOZC4SQ1xZAQgwKG9LN8boz8hhkGymqSAOmXsaSQZD"
-
+verify = config("WHATSAPP_VERIFY_TOKEN")
 @csrf_exempt
 def whatsapp_webhook(request):
     if request.method == 'POST':
