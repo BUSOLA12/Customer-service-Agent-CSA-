@@ -143,6 +143,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 For questions or support, contact:
 
-- **Email**: support@yourdomain.com
+- **Email**: iyiolaolubusola@gmail.com
 - **WhatsApp**: [WhatsApp Channel](https://whatsapp.com/channel/your_channel_id)
 - **Instagram**: [Instagram Account](https://instagram.com/your_account)
